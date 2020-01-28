@@ -3,7 +3,7 @@ syntax = "proto2";
 package tutorial;
 
 message friend {
-	optional int id = 1;
+	optional int32 id = 1;
 	optional string name = 2;
 	optional bool isTrueFriend = 3;
 	optional string country = 4;
